@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class DotCom {
+  private String name;
 
   private ArrayList<String> locationCells;
 
@@ -23,5 +24,13 @@ public class DotCom {
       }
       return  result;
     }
+
+  public void setName(String name) {
+    this.name=name;
   }
+
+  public String getName(){
+    return name;
+  }
+}
 
